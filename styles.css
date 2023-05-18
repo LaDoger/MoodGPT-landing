@@ -27,35 +27,35 @@ body {
 }
 
 .circle:nth-child(1) {
-    animation-duration: 15s;
-}
-
-.circle:nth-child(2) {
-    animation-duration: 18s;
-}
-
-.circle:nth-child(3) {
-    animation-duration: 22s;
-}
-
-.circle:nth-child(4) {
-    animation-duration: 20s;
-}
-
-.circle:nth-child(5) {
-    animation-duration: 12s;
-}
-
-.circle:nth-child(6) {
     animation-duration: 25s;
 }
 
+.circle:nth-child(2) {
+    animation-duration: 28s;
+}
+
+.circle:nth-child(3) {
+    animation-duration: 32s;
+}
+
+.circle:nth-child(4) {
+    animation-duration: 30s;
+}
+
+.circle:nth-child(5) {
+    animation-duration: 42s;
+}
+
+.circle:nth-child(6) {
+    animation-duration: 45s;
+}
+
 .circle:nth-child(7) {
-    animation-duration: 10s;
+    animation-duration: 30s;
 }
 
 .circle:nth-child(8) {
-    animation-duration: 17s;
+    animation-duration: 27s;
 }
 
 @keyframes scaleAndFade {
