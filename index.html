@@ -3,21 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>MoodGPT</title>
+    <title>moodGPT</title>
 </head>
 <body>
-    <div class="circle" style="top: 10%; left: 20%;"></div>
-    <div class="circle" style="top: 40%; left: 80%;"></div>
-    <div class="circle" style="top: 60%; left: 50%;"></div>
-    <div class="circle" style="top: 65%; left: 20%;"></div>
-    <div class="circle" style="top: 15%; left: 75%;"></div>
-    <div class="circle" style="top: 85%; left: 60%;"></div>
-    <div class="circle" style="top: 35%; left: 35%;"></div>
-    <div class="circle" style="top: 55%; left: 10%;"></div>
-    <h1 class="product-name">MoodGPT</h1>
-    <p class="tagline">The therapist that knows you best!</p>
-    <a href="https://t.me/MoodGPTbot" class="cta-button">Get Started</a>
+    <nav>
+        <img src="logo.png" alt="moodGPT Logo" class="logo">
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#chat">Chat</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <section class="hero">
+            <div class="product-logo">
+                <img src="logo.png" alt="moodGPT Logo">
+                <h1 class="product-name">moodGPT</h1>
+            </div>
+            <p class="tagline">Your personal guide to improve and enjoy great mental health.</p>
+            <a href="https://t.me/MoodGPTbot" class="cta-button">Get Started</a>
+        </section>
+        <section class="problem" id="about">
+            <h2>Problem</h2>
+            <ul>
+                <li>Therapy is expensive.</li>
+                <li>Sharing personal feelings is hard.</li>
+                <li>It's hard to know where to go for advice backed by science.</li>
+            </ul>
+        </section>
+        <section class="solution" id="solution">
+            <h2>Introducing moodGPT</h2>
+            <ul>
+                <li>Your mental health guide that doesn't sleep.</li>
+                <li>A conversational AI that will always protect your privacy.</li>
+                <li>A content library chosen by psychologists, so you hear it from the best.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <h3>Subscribe to our newsletter</h3>
+        <form class="footer-form">
+            <input type="email" name="email" placeholder="Your email address" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </footer>
 </body>
 </html>
